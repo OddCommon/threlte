@@ -356,6 +356,9 @@ importers:
 
   packages/extras:
     dependencies:
+      '@pmndrs/vanilla':
+        specifier: ^1.9.6
+        version: 1.9.6(three@0.158.0)
       troika-three-text:
         specifier: ^0.47.2
         version: 0.47.2(three@0.158.0)
@@ -2960,7 +2963,6 @@ packages:
       three: '>=0.137'
     dependencies:
       three: 0.158.0
-    dev: true
 
   /@polka/url@1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
